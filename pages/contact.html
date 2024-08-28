@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Contact - Gebr. Alexander</title>
+</head>
+<body>
+    <header>
+        <div class="header-1">
+            <div class="logo-1"><a href="#"><img class="logo" src="../assets/logo/icon.png" alt="logo"></a></div>
+              <div class="top-nav-container">
+                  <nav aria-label="top-navigation">
+                    <ul class="lang-menu">
+                      <li class="lang-item"><a href="#"><img src="../assets/imgs/en.png" alt="en"><span class="lang-size">EN</span></a>
+                      <ul class="drpdwn"><!--Dropdown menu-->
+                          <li class="drpdwn-item"><a href="#"><img src="../assets/imgs/de.png" alt="de"><span class="lang-size">DE</span></a></li>
+                          <li class="drpdwn-item"><a href="#"><img src="./assets/imgs/en.png" alt="en"><span class="lang-size">EN</span></a></li>
+                      </ul><!--Dropdown menu END-->
+                      </li>
+                      <li class="last-item">
+                        <form action="#" method="GET" id="search-box">
+                        <input class="form-text" type="search" placeholder="Search">
+                        <button class="form-button" type="submit"><img src="../assets/imgs/search.jpg" width="20px" height="20px"></button>
+                        </form>
+                      </li>
+                    </ul>
+                  </nav>
+              </div><!--top nav-->
+              <nav aria-label="second-navigation">
+                <ul class="main-menu">
+                  <li class="main-item"><a href="#"><img src="../assets/imgs/heart.png" alt="wish-icon">My Wish List</a></li>
+                  <li class="main-item"><a href="#"><img src="../assets/imgs/horn-icon.png" alt="horn-icon">Request Quote</a></li>
+                  <li class="main-item"><a href="#"><img src="../assets/imgs/bag.png" alt="shop-icon">Shopping Cart<img src="../assets/imgs/bag-num.png"></a></li>
+                  <li class="main-item last-item"><a href="#" class="last-item"><img src="../assets/imgs/user.png" alt="user-icon">Sign In or Create an Account</a></li>
+              </ul>
+              </nav>
+            </div><!--header1-->
+                <nav class="green-header" aria-level="third-navigation">
+                    <ul class="green-list">
+                      <li><a href="../index.html">HOME</a></li>
+                      <li><a href="./about.html">ABOUT US</a></li>
+                      <li><a href="#">INSTRUMENT</a></li>
+                      <li><a href="#">SHOP</a></li>
+                      <li><a href="#">SERVICE</a></li>
+                      <li><a href="#">NEWS</a></li>
+                      <li><a href="#">DOWNLOADS</a></li>
+                      <li><a href="./contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <nav aria-level="sub-header" class="sub-header">
+                    <ul class="sub-list">
+                      <li><a href="./about.html">ABOUT US</a></li>
+                      <li><a href="#">7 GENERATIONS</a></li>
+                      <li><a href="#">INSIGHT TO OUT WORKSHOP</a></li>
+                      <li><a href="#">OUR COMMITMENT TO QUALITY</a></li>
+                      <li><a href="#">AWARDS &amp; PRIZES</a></li>
+                      <li><a href="#">TRAINEE PROGRAM</a></li>
+                     </ul>
+                  </nav>
+        </header>
+        <main>
+            <div class="contact-map"><img src="../assets/imgs/map.png" alt="map"></div>
+            <section class="contact-1">
+                <h1>Do you have questions?</h1>
+                <p>Have you already taken a look at our <span class="contact-link"><a href="./faq.html">&quot;Frequently Asked Questions&quot;</a></span> section? There we answer the most frequently asked questions in detail.
+                    <br>
+                    If you have any further questions, you are always welcome to send us a message using our contact form. We will contact you as soon as possible.
+                    <br>
+                    Due to the very high volume of messages and calls, we ask for a little patience.
+                    <br>
+                    <span class="bold">Your Gebr. Alexander team</span>
+                </p>
+            </section>
+            <div class="contact-2">
+                <div class="contact-wrap">
+                    
+                        <form id="contact-form" action="/submit-form" method="post"> 
+                            <h2>You are welcome to send us a message:</h2>
+                            <div class="title-item">
+                                <label for="title">Title&#42;</label>
+                                <select name="title" required>
+                                    <option value="" selected>Please select</option>
+                                    <option value="ms.">Ms.</option>
+                                    <option value="mr.">Mr.</option>
+                                    <option value="none">None</option>
+                                </select>
+                            </div>
+                            <div class="name-wrap">
+                                <div class="first-name-item">
+                                    <label for="first-name">First Name&#42;</label>
+                                    <input id="first-name" type="text" name="first-name" required>
+                                </div>
+                                <div class="last-name-item">
+                                    <label for="last-name">Last Name&#42;</label>
+                                    <input id="last-name" type="text" name="last-name" required>
+                                </div>
+                            </div>
+                            <div class="email-item">
+                                <label for="e-mail">E-mail&#42;</label>
+                                <input id="e-mail" type="email" name="e-mail" required>
+                            </div>
+                            <div class="tel-item">
+                                <label>Phone No&#42;</label>
+                                <input id="tel" type="tel" name="tel" required>
+                            </div>
+                            <div class="subject-item">
+                                <label for="subject">Subject</label>
+                                <input id="subject" type="text" name="subject">
+                            </div>
+                            <div class="contact-m">
+                                <label>Message&#42;</label>
+                                <textarea id="message" type="text" required></textarea>
+                            </div>
+                            <div class="liner-contact"></div>
+                            <div class="check-contact">
+                                <input type="checkbox" id="check" class="checkbox">
+                                <label for="check">I have read the privacy policy&#42;</label>
+                            </div>
+                            <button class="contact-btn">Submit</button>
+                    </form>
+                    <div class="contact-right">
+                        <h2>Contact:</h2>
+                        <p><span class="bold">Our opening hours are:</span><br>
+                            Mon-Fri: 10 a.m. - 4 p.m<br>
+                            <span class="italic">(Appointments only)</span><br>
+                            Saturday closed<br>
+                            <span class="bold">Telephone availability:</span><br>
+                            Mon-Fri: 9 a.m. - 6 p.m.<br>
+                            +49 6131 288080</p>
+                    </div>
+                </div>
+            </div>  
+        </main>
+        <footer>
+            <nav aria-label="footer-navigation">
+             <div class="green-footer">
+              <div class="footer-service-wrap">
+                <h4>SERVICE</h4>
+                <ul class="service">
+                    <li><a href="./pages/faq.html">FAQ</a></li>
+                    <li><a href="#">How to order an instrument</a></li>
+                    <li><a href="#">Exhibitions &amp; Dates</a></li>
+                    <li><a href="#">Dealer locator</a></li>
+                    <li><a href="#">Repairs</a></li>
+                    <li><a href="#">Piano Alexander</a></li>
+                </ul>
+              </div>
+            <div class="footer-legals-wrap">
+                <h4>LEGALS</h4>
+                <ul class="legals">
+                    <li><a href="#">Shipping &amp; Delivery</a></li>
+                    <li><a href="#">Return &amp; Refund Policy</a></li>
+                    <li><a href="#">General Terms &amp; Conditions</a></li>
+                    <li><a href="#">Legal Notice</a></li>
+                    <li><a href="#">Data Protection</a></li>
+                    <li><a href="#">Price Calculation for EU- & non-EU-countries</a></li>
+                </ul>
+            </div>
+            <div class="footer-address-wrap">
+                <h4>ADDRESS</h4>
+                <p>Gebr. Alexander,<br>
+                    Rhein. Musikinstrumentenfabrik GmbH<br>
+                    Robert-Koch-Straße 10<br>
+                    55129 Mainz<br>
+                    Germany
+                </p>
+            </div>
+            </div><!--green footer-->
+            <div class="gray-footer">
+                <p>&copy; Copyright - Gebr. Alexander 2023. All rights reserved.</p>
+            </div>
+            </nav>
+        </footer>
+
+</body>
+
+</html>
