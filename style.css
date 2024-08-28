@@ -208,6 +208,45 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+.service-li{
+    position: relative;
+}
+
+.sub-list-drp{
+    display: none;
+    width: 170px;
+    position: absolute;
+    top: 25px;
+    left: -5px;
+    background-color: white;
+    z-index: 997;
+    box-shadow: .5px .5px 1px #cccccc;
+}
+
+.service-li:hover .sub-list-drp {
+    display: inline-block;/* hovered->show*/
+}
+
+.sub-list-item{
+    height: 22px;
+    position: relative;
+    border-bottom: solid #797979 .5px;
+}
+
+.sub-list-item a{
+    padding: 3px;
+}
+#long-sub{
+    height: 45px;
+}
+
+.green-sub ul li a:link,
+.green-sub ul li a:visited{
+    color: #323232;
+    font-weight: 400;
+    font-size: 14px;
+}
+
 /****************** Sub header part *****************************/
 
 .sub-list{
@@ -218,7 +257,7 @@ nav ul li a:hover {
 }
 
 .sub-list li{
-    font-size: 18px;
+    font-size: 16px;
     align-self: center;
 }
 
