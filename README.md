@@ -3,5 +3,7 @@ The original website is:
 https://gebr-alexander.de/en
 
 Copy right:Gebr. Alexander
+
 All right belongs to Gebr. Alexander.
+
 Created by Haruka Arai
