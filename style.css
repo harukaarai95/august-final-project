@@ -741,6 +741,12 @@ section {
     font-weight: 300;
 }
 
+.footer-service-wrap,
+.footer-legals-wrap,
+.footer-address-wrap{
+    align-self: center;
+}
+
 footer > nav ul li a:link,
 footer > nav ul li a:visited{
     color:  white;
